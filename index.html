@@ -1,1 +1,162 @@
-hi
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My CV</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO meta -->
+    <meta name="description"
+        content="Junior Frontend Developer — concise CV highlighting skills in HTML, CSS, JavaScript, accessibility and responsive design." />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://example.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Your Name — Junior Frontend Developer" />
+    <meta property="og:description"
+        content="Portfolio CV listing skills in HTML, CSS, JavaScript, accessibility and responsive design." />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="/assets/cv.svg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Name — Junior Frontend Developer" />
+    <meta name="twitter:description"
+        content="Portfolio CV listing skills in HTML, CSS, JavaScript, accessibility and responsive design." />
+    <meta name="twitter:image" content="/assets/cv.svg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/cv.svg" type="image/svg+xml">
+    <style>
+        /* Base layout and typography */
+        :root {
+            --accent: green;
+            --muted: lightskyblue;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-weight: 400;
+            color: #111;
+            line-height: 1.4;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            padding: 1rem;
+            max-width: 800px;
+            margin-inline: auto;
+        }
+
+        /* Page frame: rounded rectangular border around the content */
+        .page-frame {
+            border: 4px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            background: #fff;
+        }
+
+        hr.separator {
+            height: 3px;
+            border: 0;
+            background: #000;
+            margin: 1rem 0;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            margin: .25rem 0
+        }
+
+        h2 {
+            color: var(--muted);
+            font-size: 1.05rem;
+            margin: .35rem 0
+        }
+
+        h3 {
+            color: var(--accent);
+            margin: .35rem 0
+        }
+
+        address.contact {
+            font-style: normal;
+            margin: .25rem 0
+        }
+
+        ul {
+            margin: .25rem 0 1rem 1.25rem
+        }
+    </style>
+</head>
+
+<body>
+    <main class="page-frame">
+        <hr class="separator" />
+
+        <header>
+            <h1>Your name</h1>
+            <h3>Junior Frontend Developer</h3>
+            <address class="contact">
+                <div>123 Your Street</div>
+                <div>Your City, ST 12345</div>
+                <div>(123) 456-7890</div>
+                <div><a href="mailto:no_reply@example.com">no_reply@example.com</a></div>
+            </address>
+        </header>
+
+        <section>
+            <h3>Skills</h3>
+            <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing,
+                Presentation
+            </p>
+        </section>
+
+        <section>
+            <h3>Education</h3>
+            <article>
+                <h2>School Name, Location - Degree</h2>
+                <div>Month 20xx to Month 20xx</div>
+                <p>List of exciting things you did at university</p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Experience</h3>
+            <article>
+                <h2>Company Name, Location - Job Title</h2>
+                <div>Month 20xx to Month 20xx</div>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>Skills: List of skills used or gained at this company</p>
+            </article>
+
+            <article>
+                <h2>Company Name, Location - Job Title</h2>
+                <div>Month 20xx to Month 20xx</div>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>Skills: List of skills used or gained at this company</p>
+            </article>
+        </section>
+
+        <section>
+            <h3>Across the Internet</h3>
+            <p>Add your LinkedIn, GitHub profile links</p>
+        </section>
+    </main>
+</body>
+
+</html>
